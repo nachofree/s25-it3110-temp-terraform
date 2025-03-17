@@ -14,7 +14,7 @@ provider "aws" {
 resource "aws_instance" "example" {
   #ami           = "ami-0c293f3f676ec4f90"
   ami           = "ami-04b4f1a9cf54c11d0"
-  instance_type = "t2.medium"
+  instance_type = "t2.micro"
 }
 
 variable "AWS_ACCESS_KEY_ID" {
